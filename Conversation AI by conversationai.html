@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0120)file:///Users/saiakhileshpotharaju/Documents/GitHub/Toxic-Comment-Detection/Conversation%20AI%20by%20conversationai.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Conversation AI by conversationai</title>
+
+    <link rel="stylesheet" href="file:///Users/saiakhileshpotharaju/Documents/GitHub/Toxic-Comment-Detection/Conversation%20AI%20by%20conversationai_files/style.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img src="file:///Users/saiakhileshpotharaju/Documents/GitHub/Toxic-Comment-Detection/Conversation%20AI%20by%20conversationai_files/23317692">
+        <h1>Conversation AI</h1>
+        <p>Conversation AI is a collaborative research effort exploring ML as a tool for better discussions online.</p>
+
+        
+
+        
+          <p class="view"><a href="https://github.com/conversationai">View My GitHub Profile</a></p>
+        
+
+        
+      </header>
+      <section>
+
+      <p><a href="https://conversationai.github.io/index.md">Back to Conversation AI Research Overview</a></p>
+
+<h1 id="research-resources">Research resources</h1>
+
+<p>This page outlines the high level questions we are exploring. Further related research can be found on the <a href="https://meta.wikimedia.org/wiki/Research:Detox/Resources">WikiDetox outline of related work</a>.</p>
+
+<p>We also have a page that provides <a href="https://conversationai.github.io/ml_intro.html">a brief introduction to ML</a> to help make this research easier to understand.</p>
+
+<h2 id="public-datasets">Public datasets</h2>
+
+<p>One of our contributions is to produce datasets to support research:</p>
+<ul>
+  <li><a href="https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification">Civil Comments annotated with toxicity and identity content Kaggle Competition</a>: A public <a href="https://www.kaggle.com/">Kaggle</a> competition, based on data from the <a href="https://medium.com/@aja_15265/saying-goodbye-to-civil-comments-41859d3a2b1d">Civil Comments</a> platform, which shut down in 2017. This data is annotated for toxicity, toxicity sub-types, and mentions of identities, which enables evaluation of unintended bias with respect to identity mentions. See Kaggle page for detailed description of data source and annotation schema.</li>
+  <li><a href="https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge">Wikipedia Talk Page Comments annotated with toxicity reasons Kaggle Competition</a>: A public <a href="https://www.kaggle.com/">Kaggle</a> competition, based on a crowdsourced dataset that includes 4 toxicity sub-types (reasons why something might be considered toxic), and approx 160k human labelled comments from Wikipedia Talk pages. The labelled annotations are based on asking 5000 crowd-workers to rate Wikipedia comments according to their toxicity (likely to make others leave the conversation). This dataset is also available on <a href="https://figshare.com/articles/Wikipedia_Talk_Labels_Toxicity/4563973">Figshare as the Wikipedia Human Annotations of Toxicity on Talk Pages</a>.</li>
+  <li><a href="https://figshare.com/articles/Wikipedia_Detox_Data/4054689">Wikipedia Human Annotations of Personal Attacks on Talk Pages</a>: 100k Comments from wikipedia each with 10 annotations by the 4000 annotators who contributed to the effort. Each comment annotation notes whether the annotator considers the comment to be a personal attack or not.</li>
+  <li><a href="https://figshare.com/articles/Wikipedia_Talk_Corpus/4264973">Wikipedia Machine Annotations of Talk Pages</a>: machine-labelled annotations for every English Wikipedia talk page comment from 2001 to 2015, approximately 95 million comments to support large scale data analysis.</li>
+  <li>To submit a link to an existing public dataset, or get help creating new public data sets for related research please fill out <a href="https://goo.gl/forms/z3JatRhT5x53Xa0I2">this form</a>.</li>
+</ul>
+
+<h2 id="open-source-code">Open Source Code</h2>
+
+<p>We also have various public github projects to support research into having better converstions online:</p>
+
+<ul>
+  <li><a href="https://github.com/conversationai/conversationai-moderator">Moderator</a> - a moderation tool to support using machine learning models to assist a human review process (<a href="https://www.nytimes.com/2017/06/13/insider/have-a-comment-leave-a-comment.html">used by the New York Times</a>). There are also repositories that provide plugins for using moderator to support other platforms (<a href="https://github.com/conversationai/conversationai-moderator-reddit">moderator for reddit</a>, <a href="https://github.com/conversationai/conversationai-moderator-wordpress">moderator for wordpress</a>, <a href="https://github.com/conversationai/conversationai-moderator-discourse">moderator for discourse</a>)</li>
+  <li><a href="https://github.com/conversationai/perspectiveapi-authorship-demo">An Authorship Experience</a> - code to build authorship experiences that give feedback to people as they type. This is used in <a href="https://perspectiveapi.com/">our public demo of perspective API</a>, but the code repository includes many additional features and ways to create other auhtorship experiences.</li>
+  <li><a href="https://github.com/conversationai/unintended-ml-bias-analysis">Measuring and Mitigating Unintended Bias</a> - our repository for tools to measure and mitigated unintended bias our modles. It includes our recent <a href="https://github.com/conversationai/unintended-ml-bias-analysis/blob/master/presentations/measuring-mitigating-unintended-bias-paper.pdf">paper</a>, <a href="https://github.com/conversationai/unintended-ml-bias-analysis/blob/master/presentations/Measuring%20and%20Mitigating%20Unintended%20Bias%20in%20Text%20Classification%20-%20AIES%202018.pdf">presented</a> at <a href="http://www.aies-conference.com/accepted-papers/">AIES’2018</a>, and its corresponding tools so you can try it on your own models or datasets and build on our work to make better methods and tools.</li>
+  <li><a href="https://github.com/conversationai/conversationai-crowdsource">Crowdsource</a> - Experimental tools to support crowdsourcing annotations.</li>
+  <li><a href="https://github.com/conversationai/wikidetox">wikidetox</a> - our ongoing work with Wikimedia to create a useful corpus of Talk Page conversations on wikipedia.</li>
+</ul>
+
+<p>We also have some smaller projects that provide specific technical demonstration code for working with <a href="https://perspectiveapi.com/">the Perspective API</a>:</p>
+
+<ul>
+  <li><a href="https://github.com/conversationai/perspectiveapi-js-client">perspectiveapi-js-client</a> - A simple JavaScript client library for calling the Perspective API.</li>
+  <li><a href="https://github.com/conversationai/perspectiveapi-simple-server">perspectiveapi-simple-server</a> - A simple <a href="https://expressjs.com/">expresss</a> based proxy server that can hold your API-key and calls the Perspective API.</li>
+  <li><a href="https://github.com/conversationai/perspectiveapi-proxy">perspectiveapi-proxy</a> - A <a href="https://expressjs.com/">express</a> based simple proxy server that can be used to provide restricted access to your Perspective API cloud project.</li>
+</ul>
+
+<p>Lots more hacks built using our API can be found at the <a href="https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks">Perspective Hacks Gallery</a> site, including:</p>
+
+<ul>
+  <li><a href="https://github.com/conversationai/perspective-hacks/toxicity_timeline/README.md">Toxicity Timeline</a>: See exactly when negative conversations happen and discover the patterns behind them.</li>
+  <li><a href="https://github.com/conversationai/perspective-hacks/hot_topics/README.md">Hot Topics</a>: Compare unpublished articles with others that have created debate - before you push them live.</li>
+  <li><a href="https://github.com/conversationai/perspective-hacks/comment_filter/README.md">Comment Blur Filter</a>: Easily find and hide comments based on your tolerance for toxicity.</li>
+</ul>
+
+<h2 id="research-contributions">Research Contributions</h2>
+
+<ul>
+  <li><a href="https://www.aclweb.org/anthology/2020.acl-main.396/">Toxicity Detection: Does Context Really Matter?</a> studies the importance of  context, and when as well as to what extent it can change the perceived toxicity of posts, finding that context can both amplify or mitigate the perceived toxicity of posts, and moreover for a subset of the data that including context can even reverse the toxicity label.</li>
+  <li><a href="https://arxiv.org/abs/2004.05476">Classifying Constructive Comments (preprint)</a> introduces a new dataset of constructive comments, defines a taxonomy of characteristics of constructiveness, and provides models for constructiveness trained on this dataset.</li>
+  <li><a href="https://ai.google/research/pubs/pub48410">Debiasing Embeddings for Reduced Gender Bias in Text Classification</a> demonstrates how traditional techniques for debiasing word embeddings can actually increase model bias on downstream tasks and proposes novel debiasing methods to ameliorate the issue.</li>
+  <li><a href="https://ai.google/research/pubs/pub48120">Model Cards for Model Reporting</a> proposes a framework to encourage transparent reporting of the context, use-cases, and performance characteristics of machine learning models across domains.</li>
+  <li><a href="https://ai.google/research/pubs/pub48094">Nuanced Metrics for Measuring Unintended Bias with Real Data for Text Classification</a> introduces a suite of threshold-agnostic metrics that provide a nuanced view of unintended bias in text classification, by exploring the various ways that a classifier’s score distribution can vary across designated groups.</li>
+  <li><a href="https://dl.acm.org/citation.cfm?id=3317083">Crowdsourcing Subjective Tasks: The Case Study of Understanding Toxicity in Online Discussions</a> discusses open questions and research challenges toward the goal of effective crowdsourcing of online toxicity as well as presenting a survey of recent work that addresses these.</li>
+  <li><a href="http://wikiworkshop.org/2019/papers/Wiki_Workshop_2019_paper_17.pdf">WikiDetox Visualization</a> presents a novel data visualization and moderation tool for Wikipedia that is built on top of the Perspective API.</li>
+  <li><a href="https://ai.google/research/pubs/pub47560">Conversations Gone Awry: Detecting Early Signs of Conversational Failure</a> introduces the task of predicting whether a given conversation is on the verge of being derailed by the antisocial actions of one of its participants and demonstrates that a simple model using conversational and linguistic features can achieve performance close to that of humans for this task.</li>
+  <li><a href="https://ai.google/research/pubs/pub46743">Measuring and Mitigating Unintended Bias in Text Classification</a> develops methods for measuring the unintended bias in a text classifier according to terms that appear in the text, as well as approaches to help mitigate them. The limitations of these methods are expanded on in the follow up paper <a href="https://arxiv.org/abs/1903.02088">Limitations of Pinned AUC for Measuring Unintended Bias</a>.</li>
+  <li><a href="https://journals.sagepub.com/doi/abs/10.1177/0894439318814241">Correlating Self-Report and Trace Data Measures of Incivility: A Proof of Concept</a> connects trace data and machine learning classifiers to self-reported survey information about user’s online behaviour demonstrating the correlation between the two.</li>
+  <li><a href="https://ai.google/research/pubs/pub47559">WikiConv: A Corpus of the Complete Conversational History of a Large Online Collaborative Community</a> presents an unprecedented view of the complete history of conversations between contributors of English Wikipedia by recording the intermediate states of conversations—including not only comments and replies, but also their modifications, deletions and restorations.</li>
+  <li><a href="https://ai.google/research/pubs/pub47349">Ex machina: Personal attacks seen at scale</a> outlines how crowdsourcing and machine learning can be used to scale our understanding of online personal attacks and applies these methods to the challenge on Wikipedia.</li>
+  <li><a href="https://arxiv.org/abs/1605.04044">Network Traffic Obfuscation and Automated Internet Censorship</a> surveys approaches that use machine learning to obfuscate network traffic to circumvent censorship.</li>
+</ul>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script async="" src="./Conversation AI by conversationai_files/analytics.js"></script><script async="" src="file:///Users/saiakhileshpotharaju/Documents/GitHub/Toxic-Comment-Detection/Conversation%20AI%20by%20conversationai_files/analytics.js"></script><script src="file:///Users/saiakhileshpotharaju/Documents/GitHub/Toxic-Comment-Detection/Conversation%20AI%20by%20conversationai_files/scale.fix.js"></script>
+
+
+  
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37043857-13', 'auto');
+        ga('send', 'pageview');
+    </script>
+  
+  
+
+<div id="hl-aria-live-message-container" aria-live="polite" class="visually-hidden"></div><div id="hl-aria-live-alert-container" role="alert" aria-live="assertive" class="visually-hidden"></div></body></html>
